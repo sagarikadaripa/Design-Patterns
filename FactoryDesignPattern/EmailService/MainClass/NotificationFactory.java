@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package FactoryDesignPattern.EmailService.MainClass;
 
 public class NotificationFactory {
     public Notification getNotificationChannel(String channel){

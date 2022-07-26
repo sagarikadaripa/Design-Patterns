@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package FactoryDesignPattern.EmailService.MainClass;
 
 public class SMSNotification implements Notification {
 
