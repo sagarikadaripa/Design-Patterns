@@ -7,6 +7,7 @@ public class NotificationFactory {
             case "SMS": 
                 return new SMSNotification();
             case "EMAIL": return new EmailNotification();
+            case "WHATSAPP" : return new WhatsappNotification();
             default : throw new IllegalArgumentException("Unknow Channel "+ channel);
         }
     }
