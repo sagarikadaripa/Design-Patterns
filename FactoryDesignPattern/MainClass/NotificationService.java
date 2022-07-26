@@ -1,6 +1,9 @@
-package FactoryDesignPattern;
+package FactoryDesignPattern.MainClass;
 
 import java.util.Scanner;
+
+import FactoryDesignPattern.Notification;
+import FactoryDesignPattern.NotificationFactory;
 
 public class NotificationService {
     public static void main(String[] args){
